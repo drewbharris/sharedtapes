@@ -5,6 +5,17 @@ Collaborative real-time playlist creation and sharing application based on node.
 
 This will be the public repo of this project - if you want to use the application, you'll have to supply your own Soundcloud and Bandcamp API keys.
 
+See it in action at http://mixtapes.drewbharris.com
+
+install
+--------
+
+git clone
+
+npm install
+
+npm start
+
 
 technology
 --------
