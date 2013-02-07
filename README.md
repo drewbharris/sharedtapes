@@ -17,6 +17,15 @@ npm install
 npm start
 
 
+todo
+--------
+
+Use AMD and/or require.js and/or browserify to properly modularize the front-end code.  Currently, the different 
+Backbone bits - models, views and collections - are loaded in the correct sequence, while the app.js currently
+just contains the event handling between views, bootstrapping, and the router definition.
+
+There's still more cleanup to be done - this was written first to be functional.
+
 technology
 --------
 
