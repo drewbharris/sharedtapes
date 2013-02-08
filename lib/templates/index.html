@@ -68,84 +68,84 @@
     </div>
     <!-- templates -->
     <script type="text/template" id="help-template">
-<div class='text-heading'>Q: What is this?</div>
-<div class='text-body'>
-A: This is mixtapes (working title), a little playlist creation/collaboration/sharing tool I've been working on over the past little while. What you're looking at is the
-'alpha' build - it's not really feature-rich, doesn't look exactly how I want it and is a little buggy.</div>
-
-<div class='text-heading'>Q: What can I do with it?</div>
-<div class='text-body'>A: This application can be used in a few different ways, and
-I've got some ideas to expand functionality in the future
-(suggestions?  send them here: <a href='mailto:drewbharris@gmail.com'>drewbharris@gmail.com</a>).  Having a party
-next Friday and you'd like to outsource the DJing to your friends?
-Make a 'mixtape', send around the edit link to your friends and
-built a playlist together.  Any changes you or your friends make
-to an existing playlist are propagated through to all viewers in
-real-time.</div>
-
-<div class='text-heading'>Q: Where does the music come from?</div>
-<div class='text-body'>A: mixtapes (working title) is built on top of the wonderful
-exfm API, which acts as a sort of 'treasure map' to playable
-audio streams on the internet (located on Soundcloud, Bandcamp,
-Tumblr, and countless other music blogs).</div>
-
-<div class='text-heading'>Q: Is it free?</div>
-<div class='text-body'>A: Yes.</div>
-
-<div class='text-heading'>Q: Can I download the music?</div>
-<div class='text-body'>A: No, it's just for streaming.</div>
-
-<div class='text-heading'>Q: Why does search take so long?</div>
-<div class='text-body'>A: The list of streams that are fetched from exfm's API
-sometimes contains broken links or stuff that isn't playable.  The mixtapes (working title) 
-server checks each link before delivering the list of results to you.</div>
-
-<div class='text-heading'>Q: Some songs still don't play.</div>
-<div class='text-body'>A: I know.  I'm working on it.</div>
-
-<div class='text-heading'>Q: It's buggy.</div>
-<div class='text-body'>A: Yes.</div>
-
-<div class='text-heading'>Q: It doesn't work on Internet Explorer/Netscape Navigator/Links.</div>
-<div class='text-body'>A: Mixtapes (working title) works best on recent HTML5-compliant 
-browsers, specifically Chrome, Safari and Firefox.  It looks best render with WebKit (Chrome and Safar).
-I don't have the time to make it work properly in IE, maybe some day.</div>
-
-<div class='text-heading'>Q: Can I title my mixes?.</div>
-<div class='text-body'>A: Yes, just click on the title to change it.</div>
-
-<div class='text-heading'>Q: Why are you doing this?</div>
-<div class='text-body'>A: I like to listen to music, and I like to share the music I like
-with my friends.  I wanted to create a platform that would allow me
-to do that without having to create mixes by manipulating and
-uploading mp3 files.  I'm a fan of the exfm service and decided
-to utilize their database of audio streams to create this application.</div>
-
-<div class='text-heading'>Q: _____ feature is missing, are you going to add it?</div>
-<div class='text-body'>A: Yes, probably.  I'm a full-time student (though not for much longer) and running this project
-out of my pocket change in my free time, so I'm not sure when I'll
-get to that, but I'd like to.</div>
-
-<div class='text-heading'>Q: What's this written in? Can I browse your source code?</div>
-<div class='text-body'>A: Sure, if you'd like.  I'm normally a back end developer -
-this is my first jump into the complicated world of front end,
-so you'll have to bear with me.  The back end is written in node.js
-and uses Express as the web server, Google's LevelDB key-value
-store as a basic database (yeah, that's not what it's meant for,
-but it's really not bad) and socket.io to handle real-time WebSocket
-communications.  The front end is written in JavaScript with Backbone.js
-with bits and pieces of jQuery, socket.io and others.
-The public repo is located at <a href='http://github.com/drewbharris/mixtapes'>http://github.com/drewbharris/mixtapes</a></div>
-
-<div class='text-heading'>Q: Who are you?</div>
-<div class='text-body'>A: My name is Drew, I'm a musician, student and hardware and software
-developer living in Victoria, Canada. I previously worked in New York
-for exfm and am graduating in a couple of months.  I can be reached at <a href='mailto:drewbharris@gmail.com'>drewbharris@gmail.com</a>,
-with more information available at <a href='http://drewbharris.com'>http://drewbharris.com</a>
-</div>
-<div class='text-heading'>Attributions</div>
-<div class='text-body'>'add' icon: <a href='http://thenounproject.com/noun/add/#icon-No8394'>the noun project</a><br/>
-'source' icon: <a href='http://thenounproject.com/noun/antenna/#icon-No10170'>the noun project</a></div>
+        <div class='text-heading'>Q: What is this?</div>
+        <div class='text-body'>
+        A: This is mixtapes (working title), a little playlist creation/collaboration/sharing tool I've been working on over the past little while. What you're looking at is the
+        'alpha' build - it's not really feature-rich, doesn't look exactly how I want it and is a little buggy.</div>
+        
+        <div class='text-heading'>Q: What can I do with it?</div>
+        <div class='text-body'>A: This application can be used in a few different ways, and
+        I've got some ideas to expand functionality in the future
+        (suggestions?  send them here: <a href='mailto:drewbharris@gmail.com'>drewbharris@gmail.com</a>).  Having a party
+        next Friday and you'd like to outsource the DJing to your friends?
+        Make a 'mixtape', send around the edit link to your friends and
+        built a playlist together.  Any changes you or your friends make
+        to an existing playlist are propagated through to all viewers in
+        real-time.</div>
+        
+        <div class='text-heading'>Q: Where does the music come from?</div>
+        <div class='text-body'>A: mixtapes (working title) is built on top of the wonderful
+        exfm API, which acts as a sort of 'treasure map' to playable
+        audio streams on the internet (located on Soundcloud, Bandcamp,
+        Tumblr, and countless other music blogs).</div>
+        
+        <div class='text-heading'>Q: Is it free?</div>
+        <div class='text-body'>A: Yes.</div>
+        
+        <div class='text-heading'>Q: Can I download the music?</div>
+        <div class='text-body'>A: No, it's just for streaming.</div>
+        
+        <div class='text-heading'>Q: Why does search take so long?</div>
+        <div class='text-body'>A: The list of streams that are fetched from exfm's API
+        sometimes contains broken links or stuff that isn't playable.  The mixtapes (working title) 
+        server checks each link before delivering the list of results to you.</div>
+        
+        <div class='text-heading'>Q: Some songs still don't play.</div>
+        <div class='text-body'>A: I know.  I'm working on it.</div>
+        
+        <div class='text-heading'>Q: It's buggy.</div>
+        <div class='text-body'>A: Yes.</div>
+        
+        <div class='text-heading'>Q: It doesn't work on Internet Explorer/Netscape Navigator/Links.</div>
+        <div class='text-body'>A: Mixtapes (working title) works best on recent HTML5-compliant 
+        browsers, specifically Chrome, Safari and Firefox.  It looks best render with WebKit (Chrome and Safar).
+        I don't have the time to make it work properly in IE, maybe some day.</div>
+        
+        <div class='text-heading'>Q: Can I title my mixes?.</div>
+        <div class='text-body'>A: Yes, just click on the title to change it.</div>
+        
+        <div class='text-heading'>Q: Why are you doing this?</div>
+        <div class='text-body'>A: I like to listen to music, and I like to share the music I like
+        with my friends.  I wanted to create a platform that would allow me
+        to do that without having to create mixes by manipulating and
+        uploading mp3 files.  I'm a fan of the exfm service and decided
+        to utilize their database of audio streams to create this application.</div>
+        
+        <div class='text-heading'>Q: _____ feature is missing, are you going to add it?</div>
+        <div class='text-body'>A: Yes, probably.  I'm a full-time student (though not for much longer) and running this project
+        out of my pocket change in my free time, so I'm not sure when I'll
+        get to that, but I'd like to.</div>
+        
+        <div class='text-heading'>Q: What's this written in? Can I browse your source code?</div>
+        <div class='text-body'>A: Sure, if you'd like.  I'm normally a back end developer -
+        this is my first jump into the complicated world of front end,
+        so you'll have to bear with me.  The back end is written in node.js
+        and uses Express as the web server, Google's LevelDB key-value
+        store as a basic database (yeah, that's not what it's meant for,
+        but it's really not bad) and socket.io to handle real-time WebSocket
+        communications.  The front end is written in JavaScript with Backbone.js
+        with bits and pieces of jQuery, socket.io and others.
+        The public repo is located at <a href='http://github.com/drewbharris/mixtapes'>http://github.com/drewbharris/mixtapes</a></div>
+        
+        <div class='text-heading'>Q: Who are you?</div>
+        <div class='text-body'>A: My name is Drew, I'm a musician, student and hardware and software
+        developer living in Victoria, Canada. I previously worked in New York
+        for exfm and am graduating in a couple of months.  I can be reached at <a href='mailto:drewbharris@gmail.com'>drewbharris@gmail.com</a>,
+        with more information available at <a href='http://drewbharris.com'>http://drewbharris.com</a>
+        </div>
+        <div class='text-heading'>Attributions</div>
+        <div class='text-body'>'add' icon: <a href='http://thenounproject.com/noun/add/#icon-No8394'>the noun project</a><br/>
+        'source' icon: <a href='http://thenounproject.com/noun/antenna/#icon-No10170'>the noun project</a></div>
     </script>
     <script type="text/template" id="search-setup-template">
         <div id="recommendations">
