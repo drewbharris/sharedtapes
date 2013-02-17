@@ -40,3 +40,8 @@ Backbone.js frontend
 Soundmanager2 HTML5+Flash backwards compatible audio solution
 
 Standards-compliant CSS and JS and such (bear with me, this is my first attempt at frontend)
+
+license
+--------
+
+GPLv3
