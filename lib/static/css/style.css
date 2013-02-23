@@ -93,7 +93,7 @@ a:hover {
 }
 #header{
     width:580px;
-    height: 92px;
+    height: 100px;
     margin: 0 0 0 0;
     padding: 10px 10px 20px 10px;
     background: rgba(46,50,52,1.0);
@@ -113,7 +113,7 @@ a:hover {
 }
 #brand-title{
     float:left; 
-    width: 110px;   
+    width: 130px;   
     color: #FF4242;
     font-size: 13pt;
 }
@@ -321,7 +321,7 @@ a:hover {
     /*display: inline;*/
     float:left;
     font-size: 22pt;
-    width:470px;
+    width:450px;
 }
 #author-text{
     /*display: inline;*/
