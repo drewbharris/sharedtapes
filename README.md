@@ -1,6 +1,8 @@
 sharedtapes
 ========
 
+**Development is now occurring in seperated backend and frontend repositories at http://github.com/sharedtapes**
+
 Collaborative real-time playlist creation and sharing application based on node.js, Backbone.js and web standards.
 
 This will be the public repo of this project - if you want to use the application, you'll have to supply your own Soundcloud and Bandcamp API keys.
